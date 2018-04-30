@@ -1,0 +1,7 @@
+Iris data set ----> KNN Algorithm ----> Pattern Prediction
+>>> from sklearn.neighbors import KNeighborsClassifier
+>>> knn = KNeighborsClassifier(n_neighbors=1)#set other values as default
+>>> knn.fit(X, y) 
+>>> knn.predict([2,4,3,1])
+
+
