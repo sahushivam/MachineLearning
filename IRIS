@@ -1,0 +1,18 @@
+Iris data set ----> KNN Algorithm ----> Pattern Prediction
+>>> from sklearn.neighbors import KNeighborsClassifier
+>>> knn = KNeighborsClassifier(n_neighbors=1)#set other values as default
+>>> knn.fit(X, y) 
+>>> knn.predict([2,4,3,1])
+
+Logistic Regression
+>>> from sklearn.linear_model import LogisticRegression
+>>> lg=LogisticRegression()
+>>> lg.fit(X,y);
+
+Validation using Modal Seelction
+>>> from sklearn.model_selection import train_test_split
+>>> X_train, X_test,y_train,y_test=train_test_split(X,y,test_size=0,3)
+
+
+
+Check Accuracy
